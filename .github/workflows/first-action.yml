@@ -12,3 +12,8 @@ jobs:
 
       - name: print greeting
         run: echo "Done - bye"
+
+      - name: print multiline
+        run: |
+          echo "first line"
+          echo "second line"
